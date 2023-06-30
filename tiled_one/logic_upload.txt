@@ -1,0 +1,7 @@
+for i in range(20):
+    if i<199:
+        self.game_moves.addMove("goRight")
+    else:
+        self.game_moves.addMove("goLeft")
+        if i>220:
+            self.game_moves.addMove("jump")
